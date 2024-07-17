@@ -10,12 +10,12 @@ def convert_mp3_to_wav(mp3_path):
     audio.export(wav_path, format="wav")
     return wav_path
 # Defina o caminho para sua API key JSON do Google Cloud
-google_api_key_path = "google-api.json"
+google_api_key_path = "caminho/para/sua/api_key.json"
 
-# Caminho para o arquivo de áudio
-audio_path = "audio1.mp3"
+# Caminho para o arquivo de áudio MP3
+audio_path_mp3 = "caminho/para/seu/arquivo.mp3"
 # Caminho para o arquivo de saída de texto
-output_text_path = "transcricao1.txt"
+output_text_path = "caminho/para/seu/arquivo.txt"
 
 wav_path = convert_mp3_to_wav(audio_path)
 
